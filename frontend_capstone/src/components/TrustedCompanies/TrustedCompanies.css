@@ -1,0 +1,41 @@
+.trusted-companies-container {
+    width: 98%;
+    text-align: center;
+    margin: auto;
+    padding-top: 100px;
+}
+
+.trusted-divider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px; /* Space between the text and the lines */
+}
+
+.line {
+  flex: 1; /* Make the lines stretch */
+  border: none;
+  border-top: 1.4px solid #000000; /* Light gray line */
+  margin: 0;
+}
+
+.trusted-text {
+  font-size: 22px;
+  font-weight: bold;
+  color: #333; /* Darker text color */
+  white-space: nowrap; /* Prevent text wrapping */
+}
+
+.trusted-logos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 140px; /* Space between logos */
+  margin-top: 20px;
+}
+
+.company-logo {
+  width: 170px; /* Set a fixed width for all logos */
+  height: 60px; /* Set a fixed height for all logos */
+  object-fit: contain; /* Ensure logos fit within the container without distortion */
+}

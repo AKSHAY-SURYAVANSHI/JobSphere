@@ -1,0 +1,95 @@
+.register-signInContainer {
+    
+    color: black;
+    min-height: 83vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-image: url("/src/assets/loginbg.jpg"); /* Correct path to the image */
+    background-size: cover; /* Ensure the image covers the entire container */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; 
+  }
+  
+  .register-signInContainer h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+  }
+
+  .register-signInContainer h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    margin: auto;
+    padding-bottom: 20px;
+  }
+  
+  .register-form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 450px;
+    background-color: rgba(255, 255, 255, 0.596);
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+  }
+  
+  .register-label {
+    font-size: 16px;
+    margin-top: 15px;
+    
+  }
+  
+  .register-input {
+    padding: 10px;
+    margin-top: 5px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    background-color: rgba(255, 255, 255, 0.9);
+    color: #000;
+  }
+  
+  .register-button {
+    margin-top: 20px;
+    padding: 12px;
+    font-size: 16px;
+    background-color: #bb00ff;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .register-button:hover {
+    background-color: #e65100;
+  }
+  
+  .register-error {
+    color: red;
+    margin-top: 10px;
+    text-align: center;
+  }
+  
+  .register-login {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .register-login p {
+    color: black;
+    font-size: 16px;
+  }
+  
+  .register-login a {
+    color: #000000;
+    text-decoration: underline;
+  }
+  
+  
+  

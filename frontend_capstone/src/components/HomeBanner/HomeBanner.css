@@ -1,0 +1,11 @@
+.home-banner-container {
+  margin-top: -110px; /* Push content below the navbar */
+}
+
+.home-banner {
+  width: 99.1vw; /* Full width of the screen */
+  height: auto; /* Maintain aspect ratio */
+  display: block; /* Remove inline spacing */
+  margin-left: -10px; /* Remove default margins */
+  padding: 0; /* Remove padding */
+}
